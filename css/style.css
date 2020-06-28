@@ -36,6 +36,12 @@ h1{
     grid-gap: 2rem;
     margin: 20px 80px;
 }
+
+.container_grid img{
+    width: 400px;
+    height: 400px;
+}
+
 .item{
     height: 300px;
     width: 300px;
