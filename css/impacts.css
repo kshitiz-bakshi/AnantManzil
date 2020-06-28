@@ -6,6 +6,7 @@
     height: 634px;
     justify-content: center;
     align-items: center;
+    background: url('../img/rights.jpg') no-repeat center center/cover;
     
 }
 #home::before{
