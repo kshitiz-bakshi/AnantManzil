@@ -61,15 +61,15 @@ h1{
    align-items: center;
 }
 
-}
+
 .container-about div{
     display: flex;
     width: 900px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  font-size: 0.91rem;
-  color: #6c757d;
+    font-size: 0.91rem;
+    color: #6c757d;
     font-weight: bolder;
     padding: 10px 51px;
 
