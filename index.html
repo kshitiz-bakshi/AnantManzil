@@ -57,7 +57,8 @@
 
   gtag('config', 'UA-171671869-1');
 </script>
-
+  
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/phone.css">
@@ -174,6 +175,47 @@
 
 
   </div>
+  
+  
+  <hr class="featurette-divider linepad">
+
+  <div class="counter ">
+
+    <div class="row row-counter">
+
+        <div class="card card-counter " style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-subtitle mb-2 text-muted blockquote text-center">People Benefited Till Now</h5>
+            <p><hr></p>
+            <h1><span class="count">2000</span>+</h1>
+
+          </div>
+        </div>
+
+        <div class="card card-counter" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-subtitle mb-2 text-muted blockquote text-center ">Volunteers</h5>
+            <p><hr></p>
+            <h1><span class="count">100</span>+</h1>
+
+          </div>
+        </div>
+
+        <div class="card card-counter" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-subtitle mb-2 text-muted blockquote text-center">Connections</h5>
+            <p><hr></p>
+            <h1><span class="count">500</span>+</h1>
+
+          </div>
+        </div>
+      
+        
+
+
+    </div>
+  </div>
+
 
 
   <hr class="featurette-divider linepad">
@@ -319,6 +361,18 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script>
+<script>
+
+        jQuery(document).ready(function($) {
+            $('.count').counterUp({
+                delay: 10,
+                time: 1500
+            });
+        });
+
+    </script>
 </body>
 
 </html>
