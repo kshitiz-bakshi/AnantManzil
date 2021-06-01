@@ -12,6 +12,18 @@
  }
 
 
+.card-counter{
+    margin: 40px;
+
+}
+
+.counter{
+    margin: 0px;
+    padding: 5px;
+    margin-left: 0px;
+
+}
+
 .container-about{
     flex-direction: column;
     padding: 0px 0px;
